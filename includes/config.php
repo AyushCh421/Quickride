@@ -1,18 +1,14 @@
 <?php
-// Database configuration
-$host = "localhost";
-$user = "root";
-$pass = "";
-$db   = "taxiservices";
+$host = getenv("DB_HOST") ?: "localhost";
+$user = getenv("DB_USER") ?: "root";
+$pass = getenv("DB_PASS") ?: "";
+$db   = getenv("DB_NAME") ?: "taxiservices";
 
-// Create database connection
 $conn = new mysqli($host, $user, $pass, $db);
 
-// Check connection
 if ($conn->connect_error) {
-    die("Database connection failed: " . $conn->connect_error);
+    die("Database connection failed");
 }
 
-// Set charset
 $conn->set_charset("utf8mb4");
 ?>
