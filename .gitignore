@@ -1,0 +1,21 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# Node / Composer (if added later)
+node_modules/
+vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# XAMPP temp / cache
+*.tmp
+*.swp
