@@ -73,6 +73,11 @@ B240038CS_3/
 
 ---
 
+##Run Globally
+
+Live Demo: https://quickride-3ltn.onrender.com  
+GitHub Repo: https://github.com/AyushCh421/Quickride
+
 ## 🔐 Authentication Flow
 
 - Users must sign up before logging in
